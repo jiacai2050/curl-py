@@ -1,0 +1,19 @@
+* Curl Python binding with help of Rust
+
+* Development
+#+begin_src bash
+sudo apt install -y libcurl4-openssl-dev
+
+python -m venv .env
+source .env/bin/activate
+pip install maturin
+pip install maturin[patchelf]
+
+# Install wheels
+maturin develop
+
+python -c 'import curl_py; print(curl_py.curl_get("http://httpbin.org/headers"))'
+
+#+end_src
+
+* Test
