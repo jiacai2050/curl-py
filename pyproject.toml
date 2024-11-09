@@ -3,7 +3,7 @@ requires = ["maturin>=1.7,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "curl_py"
+name = "curl_pyo3"
 description = "libCURL Python Binding"
 authors = [{name = "Jiacai Liu", email="dev@liujiacai.net"}]
 readme = "README.org"
