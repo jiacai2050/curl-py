@@ -1,4 +1,6 @@
-* Curl Python binding with help of Rust
+* Curl Python binding
+[[https://github.com/jiacai2050/curl-py/actions/workflows/CI.yml][https://github.com/jiacai2050/curl-py/actions/workflows/CI.yml/badge.svg]]
+[[https://pypi.org/project/curl-pyo3][https://img.shields.io/pypi/v/curl-pyo3.svg]]
 
 * Development
 #+begin_src bash
@@ -15,5 +17,3 @@ maturin develop
 python -c 'import curl_py; print(curl_py.curl_get("http://httpbin.org/headers"))'
 
 #+end_src
-
-* Test

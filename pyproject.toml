@@ -22,3 +22,7 @@ dynamic = ["version"]
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
+
+[project.urls]
+Repository = "https://github.com/jiacai2050/curl-py"
+Issues = "https://github.com/jiacai2050/curl-py/issues"
